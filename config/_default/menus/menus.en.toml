@@ -4,73 +4,85 @@
   name = "About"
   weight = 10
   url = "/about/"
+  identifier = "about"
 
 [[main]]
   name = "Abstract"
   weight = 1
   url = "/about/abstract/"
-  parent = "About"
+  identifier = "about-abstract"
+  parent = "about"
 
 [[main]]
   name = "Core"
   weight = 2
   url = "/about/core/"
-  parent = "About"
+  identifier = "about-core"
+  parent = "about"
 
 [[main]]
   name = "Kernels"
   weight = 3
   url = "/about/kernels/"
-  parent = "About"
+  identifier = "about-kernels"
+  parent = "about"
 
 [[main]]
   name = "Tools"
   weight = 4
   url = "/about/tools/"
-  parent = "About"
+  identifier = "about-tools"
+  parent = "about"
 
 [[main]]
   name = "Tutorials"
   weight = 5
   url = "https://github.com/kokkos/kokkos-tutorials"
-  parent = "About"
+  identifier = "about-tutorials"
+  parent = "about"
 
 [[main]]
   name = "News"
   weight = 6
   url = "/blog/"
-  parent = "About"
+  identifier = "about-news"
+  parent = "about"
 
 # REPOSITORIES
 
 [[main]]
   name = "Repositories"
   weight = 20
+  identifier = "repositories"
   url = "/repositories/"
 
 [[main]]
   name = "Core"
   weight = 1
   url = "https://github.com/kokkos/kokkos"
-  parent = "Repositories"
+  identifier = "repositories-core"
+  parent = "repositories"
 
 [[main]]
   name = "Kernels"
   weight = 2
   url = "https://github.com/kokkos/kokkos-kernels"
-  parent = "Repositories"
+  identifier = "repositories-kernels"
+  parent = "repositories"
 
 [[main]]
   name = "Tools"
   weight = 3
   url = "https://github.com/kokkos/kokkos-tools"
-  parent = "Repositories"
+  identifier = "repositories-tools"
+  parent = "repositories"
 
 [[main]]
   name = "Tutorials"
   weight = 4
   url = "https://github.com/kokkos/kokkos-tutorials"
-  parent = "Repositories"
+  identifier = "repositories-tutorials"
+  parent = "repositories"
 
 # DOCUMENTATION
 
