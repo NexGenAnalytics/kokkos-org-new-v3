@@ -1,70 +1,150 @@
-[[docs]]
-  name = "Prologue"
-  weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
-
-[[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
-
-[[docs]]
-  name = "Lorem"
-  weight = 70
-  identifier = "lorem"
-  url = "/docs/lorem/"
-
-[[guide]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/guide/lorem/"
-
-[[tutorial]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/tutorial/lorem/"
+# ABOUT
 
 [[main]]
-  name = "Docs"
-  url = "/docs/prologue/introduction/"
-# url = "/docs/1.0/prologue/introduction/"
+  name = "About"
   weight = 10
+  url = "/about/"
 
-# [[main]]
-#   name = "Tutorial"
-#   url = "/tutorial/lorem/ipsum/"
-#   weight = 15
+[[main]]
+  name = "Abstract"
+  weight = 1
+  url = "/about/abstract/"
+  parent = "About"
+
+[[main]]
+  name = "Core"
+  weight = 2
+  url = "/about/core/"
+  parent = "About"
+
+[[main]]
+  name = "Kernels"
+  weight = 3
+  url = "/about/kernels/"
+  parent = "About"
+
+[[main]]
+  name = "Tools"
+  weight = 4
+  url = "/about/tools/"
+  parent = "About"
+
+[[main]]
+  name = "Tutorials"
+  weight = 5
+  url = "https://github.com/kokkos/kokkos-tutorials"
+  parent = "About"
+
+[[main]]
+  name = "News"
+  weight = 6
+  url = "/blog/"
+  parent = "About"
+
+# REPOSITORIES
+
+[[main]]
+  name = "Repositories"
+  weight = 20
+  url = "/repositories/"
+
+[[main]]
+  name = "Core"
+  weight = 1
+  url = "https://github.com/kokkos/kokkos"
+  parent = "Repositories"
+
+[[main]]
+  name = "Kernels"
+  weight = 2
+  url = "https://github.com/kokkos/kokkos-kernels"
+  parent = "Repositories"
+
+[[main]]
+  name = "Tools"
+  weight = 3
+  url = "https://github.com/kokkos/kokkos-tools"
+  parent = "Repositories"
+
+[[main]]
+  name = "Tutorials"
+  weight = 4
+  url = "https://github.com/kokkos/kokkos-tutorials"
+  parent = "Repositories"
+
+# DOCUMENTATION
+
+[[main]]
+  name = "Documentation"
+  weight = 30
+  url = "/documentation/"
+
+# BLOG
 
 [[main]]
   name = "Blog"
-  url = "/blog/"
-  weight = 20
-
-[[main]]
-  name = "Get Started"
-  weight = 30
-  identifier = "get-started"
-  url = "/docs/prologue/introduction/"
-
-[[main]]
-  name = "Quick Start"
   weight = 40
-  identifier = "quick-start"
-  url = "/docs/prologue/quick-start/"
-  parent = "get-started"
+  url = "/blog/"
+
+# OUTREACH
 
 [[main]]
-  name = "Tutorial"
+  name = "Outreach"
   weight = 50
-  identifier = "tutorial"
-  url = "https://getdoks.org/tutorial/introduction/"
-  parent = "get-started"
+  url = "/outreach/"
 
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+[[main]]
+  name = "Events"
+  weight = 1
+  url = "/outreach/events"
+  parent = "Outreach"
+
+[[main]]
+  name = "Publications"
+  weight = 2
+  url = "/outreach/publications"
+  parent = "Outreach"
+
+[[main]]
+  name = "Report An Issue"
+  weight = 3
+  url = "/outreach/report-an-issue"
+  parent = "Outreach"
+
+[[main]]
+  name = "Slack Channel"
+  weight = 4
+  url = "https://app.slack.com/client/T5ASL2F1N"
+  parent = "Outreach"
+
+# COMMUNITY
+
+[[main]]
+  name = "Community"
+  weight = 60
+  url = "/community/"
+
+[[main]]
+  name = "Team"
+  weight = 1
+  url = "/community/team/"
+  parent = "Community"
+
+[[main]]
+  name = "Use Case Studies"
+  weight = 2
+  url = "/community/use-case-studies/"
+  parent = "Community"
+
+[[main]]
+  name = "Applications"
+  weight = 3
+  url = "/community/applications/"
+  parent = "Community"     
+
+# CONTACT
+
+[[main]]
+  name = "Contact"
+  weight = 70
+  url = "/contact/"
