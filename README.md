@@ -1,3 +1,7 @@
+# How to deploy on Github
+
+https://getdoks.org/docs/how-to/hosting/deployment/#deploy-to-github-pages
+
 # Requirements
 
 - [Git](https://git-scm.com/) — latest source release
