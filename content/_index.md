@@ -7,9 +7,19 @@ lastmod: 2020-10-06T08:47:36+00:00
 draft: false
 images: []
 ---
-KOKKOS ECOSYSTEM - Part of the Exascale Project
+
+<div class="home-title-div">
+
+<h2 class="home-title-text">KOKKOS ECOSYSTEM <br /> - <br /> Part of the Exascale Project</h2>
+
+<div class="home-title-image">
 
 ![Kokkos Ecosystem Hero](images/kokkos-ecosystem-hero.jpg)
+
+</div>
+
+</div>
+
 
 ## Sponsors
 
@@ -20,6 +30,36 @@ This work was performed under US Government contract DE-AC52-06NA25396 for Los A
 
 This website contains material previously released under SAND2018-5365 O.
 
+<div class="home-image-column">
+
 ![snl-logo-632x200](images/snl-logo-632x200.jpg)
 
+</div>
+
+<div class="home-image-column">
+
 ![ornl-logo-300x95](images/ornl-logo-300x95.jpg)
+
+</div>
+
+<style>
+
+ /* Display text on landscape background image */
+.home-title-div {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.home-title-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Align horizontally home's images */
+.home-image-column {
+    float: left;
+    width: 50%; /* 100% / 2 figures = 50% */
+}
+</style>
