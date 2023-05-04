@@ -83,15 +83,15 @@ editPage = false
 lastMod = false
 
 [sections]
-  sectionNav = ["docs", "guides"]
+  sectionNav = ["main"]
 
 [options]
   lazySizes = true
   clipBoard = true
   instantPage = true
   flexSearch = true
-  searchSectionsShow = []
-  searchSectionsIndex = []
+  searchsectionsshow = []
+  searchsectionsindex = "ALL"
   darkMode = false
   bootStrapJs = true
   breadCrumb = false
