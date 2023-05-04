@@ -10,15 +10,35 @@ weight: 10
 
 The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra experts with a dedication to making live easier for computation scientists and engineers.
 
+<div class="community-team-image-column">
+
 ![snl-logo-632x200](images/snl-logo-632x200.jpg)
+
+</div>
+
+<div class="community-team-image-column">
 
 ![lanl-logo-300x95](images/lanl-logo-300x95.jpg)
 
+</div>
+
+<div class="community-team-image-column">
+
 ![ornl-logo-300x95](images/ornl-logo-300x95.jpg)
+
+</div>
+
+<div class="community-team-image-column">
 
 ![ANL-logo-300x105](images/ANL-logo-300x105.png)
 
+</div>
+
+<div class="community-team-image-column">
+
 ![CSCS-Logo-300x121](images/CSCS-Logo-300x121.jpg)
+
+</div>
 
 # Kokkos Core
 
