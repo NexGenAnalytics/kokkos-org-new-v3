@@ -8,6 +8,8 @@ draft: false
 images: []
 ---
 
+<img class="lazyloaded kokkos-logo" src="/images/kokkos-logo.png" alt="kokkos-logo">
+
 <div class="home-title-div">
 
 <h2 class="home-title-text">KOKKOS ECOSYSTEM <br /> - <br /> Part of the Exascale Project</h2>
@@ -43,23 +45,28 @@ This website contains material previously released under SAND2018-5365 O.
 </div>
 
 <style>
+    /* size logo */
+    .kokkos-logo {
+        width: 50%;
+        margin-bottom: 80px;
+    }
 
- /* Display text on landscape background image */
-.home-title-div {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-.home-title-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    /* Display text on landscape background image */
+    .home-title-div {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .home-title-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
-/* Align horizontally home's images */
-.home-image-column {
-    float: left;
-    width: 50%; /* 100% / 2 figures = 50% */
-}
+    /* Align horizontally home's images */
+    .home-image-column {
+        float: left;
+        width: 50%; /* 100% / 2 figures = 50% */
+    }
 </style>
