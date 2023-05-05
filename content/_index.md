@@ -8,7 +8,11 @@ draft: false
 images: []
 ---
 
-<img class="lazyloaded kokkos-logo" src="/images/kokkos-logo.png" alt="kokkos-logo">
+<div class="kokkos-logo">
+
+![Kokkos Logo](/images/kokkos-logo.png)
+
+</div>
 
 <div class="home-title-div">
 
@@ -49,6 +53,8 @@ This website contains material previously released under SAND2018-5365 O.
     .kokkos-logo {
         width: 50%;
         margin-bottom: 80px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Display text on landscape background image */
